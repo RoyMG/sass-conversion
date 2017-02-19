@@ -1,0 +1,7 @@
+@mixin large {
+  @media all and (min-width: 40rem){
+
+    //@content is like a placeholder for ccs rules to be used later on in the code - adjustments for tablet view-port
+    @content;
+  }
+ }
